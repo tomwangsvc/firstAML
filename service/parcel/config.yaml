@@ -1,0 +1,26 @@
+parcels:
+ - type: small
+   dimensions: less than 10cm
+   baseCost: 3.0
+   weightLimit: 1kg
+   costPerKiloOverLimit: 2.0
+ - type: medium
+   dimensions: less than 50cm
+   baseCost: 8.0
+   weightLimit: 3kg
+   costPerKiloOverLimit: 2.0
+ - type: large
+   dimensions: less than 100cm
+   baseCost: 15.0
+   weightLimit: 6kg
+   costPerKiloOverLimit: 2.0
+ - type: xlarge
+   dimensions: greater than 100cm
+   baseCost: 25.0
+   weightLimit: 10kg
+   costPerKiloOverLimit: 2.0
+ - type: heavy
+   dimensions: greater than 100cm
+   baseCost: 25.0
+   weightLimit: 10kg
+   costPerKiloOverLimit: 2.0
